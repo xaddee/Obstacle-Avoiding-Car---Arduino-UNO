@@ -7,6 +7,7 @@ A car build from scratch and programmed with Arduino to avoid obstacles.
 - Breadboard x1
 - Ultrasonic Sensor x2
 - DC Motor x2
+- L293D Motor driver x1
 - 9V battery x1
 - 1.5V battery x4
 - Battery holder x1
