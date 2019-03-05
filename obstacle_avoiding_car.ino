@@ -110,12 +110,12 @@ void turnLeft ()
 {
   digitalWrite(leftForward, LOW);
   digitalWrite(leftBackward, LOW);
-  digitalWrite(rightForward, fastSpeed);
+  digitalWrite(rightForward, HIGH);
   digitalWrite(rightBackward, LOW);
 }
 void turnRight ()
 {
-  digitalWrite(leftForward, fastSpeed);
+  digitalWrite(leftForward, HIGH);
   digitalWrite(leftBackward, LOW);
   digitalWrite(rightForward, LOW);
   digitalWrite(rightBackward, LOW);
@@ -124,7 +124,7 @@ void turnRight ()
 void goBackwards ()
 {
   digitalWrite(leftForward, LOW);
-  digitalWrite(leftBackward, fastSpeed);
+  digitalWrite(leftBackward, HIGH);
   digitalWrite(rightForward, LOW);
-  digitalWrite(rightBackward, fastSpeed);
+  digitalWrite(rightBackward, HIGH);
 }
